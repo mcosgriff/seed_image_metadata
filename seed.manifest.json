@@ -52,7 +52,7 @@
                     {
                         "name": "OUTPUT_FILE",
                         "mediaType": "text/json",
-                        "pattern": "*_output.json",
+                        "pattern": "*_output*.json",
                         "multiple": false,
                         "required": true
                     }
