@@ -3,7 +3,7 @@
     "job": {
         "name": "tiff-metadata-job",
         "jobVersion": "0.0.1",
-        "packageVersion": "1.0.0",
+        "packageVersion": "1.0.1",
         "title": "Tiff Metadata",
         "description": "Get metadata for tiff file",
         "maintainer": {
@@ -51,8 +51,8 @@
                 "files": [
                     {
                         "name": "OUTPUT_FILE",
-                        "mediaType": "text/json",
-                        "pattern": "*_output*.json",
+                        "mediaType": "application/json",
+                        "pattern": "*_metadata.json",
                         "multiple": false,
                         "required": true
                     }
